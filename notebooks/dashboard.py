@@ -226,7 +226,7 @@ def _(mo, model_roc_auc):
     ### Summary
 
     **Selected model:** {"Random Forest"}  
-    **Cross-validated accuracy:** `{model_roc_auc:.3f}`  
+    **Cross-validated roc_auc:** `{model_roc_auc:.3f}`  
 
     """)
 
