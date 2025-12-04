@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.18.1"
+__generated_with = "0.18.2"
 app = marimo.App(width="medium")
 
 
@@ -14,6 +14,7 @@ def _(mo):
 
 @app.cell
 def _():
+    import io
     import pandas as pd
     import marimo as mo
     from sklearn.model_selection import train_test_split, cross_val_score
@@ -21,13 +22,22 @@ def _():
 
     import plotly.express as px
     import plotly.graph_objects as go
-    return RandomForestClassifier, cross_val_score, go, mo, pd, px
+    return RandomForestClassifier, cross_val_score, go, io, mo, pd, px
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Upload a csv file with data
+    """)
+    return
 
 
 @app.cell
-def _(pd):
-    df = pd.read_csv(r'C:\Users\Admin\Desktop\HSE\VSHB\Ml_Torreto\Applied-DS-project-BASB-252-\data\raw\Bank\Bank Customer Churn Prediction.csv').drop(columns=['customer_id'])
-    return (df,)
+def _(mo):
+    f = mo.ui.file(kind="button")
+    f
+    return (f,)
 
 
 @app.cell(hide_code=True)
@@ -39,9 +49,11 @@ def _(mo):
 
 
 @app.cell
-def _(df, mo):
+def _(f, io, mo, pd):
+    csv_file_like = io.BytesIO(f.contents())
+    df = pd.read_csv(csv_file_like).drop(columns=['customer_id'])
     mo.plain(df)
-    return
+    return (df,)
 
 
 @app.cell(hide_code=True)
@@ -63,7 +75,6 @@ def _(df, mo):
     )
 
     ui_feature_selector
-
     return (ui_feature_selector,)
 
 
@@ -126,7 +137,6 @@ def _(mo):
         ui_rf_criterion,
         ui_rf_max_features
     ])
-
     return (
         ui_rf_criterion,
         ui_rf_depth,
@@ -149,12 +159,12 @@ def _(
     y,
 ):
     model = RandomForestClassifier(
-        n_estimators=ui_rf_trees.value,
-        max_depth=ui_rf_depth.value,
-        min_samples_split=ui_rf_min_samples.value,
-        criterion=ui_rf_criterion.value or "gini",
-        max_features=None if ui_rf_max_features.value in ["None", None] else ui_rf_max_features.value,
-        random_state=42
+            n_estimators=ui_rf_trees.value,
+            max_depth=ui_rf_depth.value,
+            min_samples_split=ui_rf_min_samples.value,
+            criterion=ui_rf_criterion.value,
+            max_features=None if ui_rf_max_features.value == "None" else ui_rf_max_features.value,
+            random_state=42
     )
 
     cv_scores = cross_val_score(model, X, y, cv=5, scoring="roc_auc")
@@ -183,7 +193,6 @@ def _(go, model_roc_auc):
         )
     )
     fig_roc_auc
-
     return
 
 
@@ -216,7 +225,6 @@ def _(X, model, pd, px, y):
     )
 
     fig_features
-
     return
 
 
@@ -226,10 +234,8 @@ def _(mo, model_roc_auc):
     ### Summary
 
     **Selected model:** {"Random Forest"}  
-    **Cross-validated roc_auc:** `{model_roc_auc:.3f}`  
-
+    **Cross-validated roc_auc:** `{model_roc_auc:.3f}`
     """)
-
     return
 
 

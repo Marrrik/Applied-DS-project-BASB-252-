@@ -1,0 +1,268 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.1"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "251e3b3d4da06134e741e2b88a24271c",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: af25a1a2-fb1f-4a00-baed-2d072fc702bf",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "df3e6dc0607dcf58e75f10f69ed005e8",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: abeeaf35-a8d8-4538-aff3-39f80c8eb9c2",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "1561d06ae565f623e6027617e4986727",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 97be098a-00cb-4508-80e5-07fdc871f8c5",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "de07b22d4ebe29118d8c42406ee292f6",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: cb1cc2d4-6b2d-4762-bed2-a0fea3011a2e",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "8ce6eb84bcfd0b8cdea45c7f8f695739",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: bf284745-75ce-42f8-ae9e-e1d073618e68",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "ec9ae9da44ff31dda4acdf85295969d0",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 758f0512-3e09-4925-bda3-e8112b038db5",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "eff7d5dba32b4da32d9a67a519434d3f",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 980c5133-5237-40b2-a8d4-1871daa44215",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "a2f30b86e256fdfeca4d66667cef9f95",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 2fe30433-a935-43a4-af8b-8cdabc6ef3d4",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "553d18da05ae3255d09f6b372c44f0d2",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 26b5ca06-8448-4191-9bfa-6db055d5fb98",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "925df186e13afaf00082969031bf7e32",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: ab42cfe8-ab4f-491f-812e-e43c1b8f9258",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "eff7d5dba32b4da32d9a67a519434d3f",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: c4c40b4b-b2d1-434b-9d2d-d2665f52fb41",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "5341aa7e5cdab00f418fa207f940e865",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "5e2e1d34dd954401371da1ca9aa33d44",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: abd14f21-3727-4085-80c3-ae18b00bf046",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "160bb0f8a6c9bf3b262c22e53ea2fca9",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 0a6fa725-bbaa-499b-8a69-3fbc5fe49108",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "1e7951fd3c5499ebdf62be04bc64b367",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: a5ef5309-b2bb-41ae-bb81-3b20386c9ae8",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "dbb08e17764be31225787fd3109a941a",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: fde8bafd-727a-4f26-8ff3-6815a8f04f4e",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "7c1c5d7446b0b1a6c0d9cdb4ac5fd4b9",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 686f7435-4f8a-4517-b210-c7d00097fdff",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "d9595581882cdfea7df03cb59dc82a1a",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 6488b4fc-79ab-4dac-9438-9f36eb3c16c8",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "22578082cf0c0e946e806071dda074a1",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: 71ae65f7-4690-451f-8e0b-fe27fc9f2026",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "2760d6b6fc5eba833e9e65f5fdfb0750",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "internal",
+          "evalue": "An internal error occurred: f9e6308b-afff-4078-9e9f-ec609e96f870",
+          "traceback": []
+        }
+      ],
+      "console": []
+    }
+  ]
+}
