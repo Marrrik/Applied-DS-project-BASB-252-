@@ -26,7 +26,7 @@ def _():
 
 @app.cell
 def _(pd):
-    df = pd.read_csv('data/raw/Bank/Bank Customer Churn Prediction.csv').drop(columns=['customer_id'])
+    df = pd.read_csv(r'C:\Users\Admin\Desktop\HSE\VSHB\Ml_Torreto\Applied-DS-project-BASB-252-\data\raw\Bank\Bank Customer Churn Prediction.csv').drop(columns=['customer_id'])
     return (df,)
 
 
@@ -149,12 +149,12 @@ def _(
     y,
 ):
     model = RandomForestClassifier(
-            n_estimators=ui_rf_trees.value,
-            max_depth=ui_rf_depth.value,
-            min_samples_split=ui_rf_min_samples.value,
-            criterion=ui_rf_criterion.value,
-            max_features=None if ui_rf_max_features.value == "None" else ui_rf_max_features.value,
-            random_state=42
+        n_estimators=ui_rf_trees.value,
+        max_depth=ui_rf_depth.value,
+        min_samples_split=ui_rf_min_samples.value,
+        criterion=ui_rf_criterion.value or "gini",
+        max_features=None if ui_rf_max_features.value in ["None", None] else ui_rf_max_features.value,
+        random_state=42
     )
 
     cv_scores = cross_val_score(model, X, y, cv=5, scoring="roc_auc")
